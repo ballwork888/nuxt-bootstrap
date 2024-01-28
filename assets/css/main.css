@@ -1,0 +1,72 @@
+.bg-red-gradient {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(247, 30, 30) 100.3%);
+
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #af0303;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(145, 9, 9, 0.9), rgba(161, 12, 37, 0.9));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(112, 4, 4, 0.9), rgba(139, 4, 26, 0.9));
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.username {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Mitr', sans-serif;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+body,html{
+    background-color: #e2e0e0;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(255, 136, 0);
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Mitr', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.invisible-scroll {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scroll-padding-left: 10px;
+    scroll-padding-right: 10px;
+}
+
+.invisible-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.text-primary{
+    color:#af0303 !important;
+}
+.navbar-brand img{
+    width: 190px;
+}

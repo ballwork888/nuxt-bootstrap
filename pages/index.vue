@@ -1,0 +1,3 @@
+<template>
+    <CarouselGame></CarouselGame>
+</template>
