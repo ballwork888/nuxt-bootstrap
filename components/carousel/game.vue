@@ -12,9 +12,9 @@ const lotteries = [
 </script>
 
 <template>
-  <div class="row mt-2">
+  <div class="row mt-2 d-none d-lg-block">
 
-      <carousel :itemsToShow="5" :wrapAround="true" :transition="500" :autoplay="1500">
+      <carousel :itemsToShow="4" :wrapAround="true" :transition="500" :autoplay="1500">
         <slide v-for="slide in lotteries" :key="slide">
 
           <div class="card carousel__item">
@@ -30,6 +30,25 @@ const lotteries = [
       </carousel>
  
   </div>
+
+  <div class="row mt-2 d-block d-lg-none">
+
+    <carousel :itemsToShow="1.7" :wrapAround="true" :transition="500" :autoplay="1500">
+      <slide v-for="slide in lotteries" :key="slide">
+
+        <div class="card carousel__item">
+          <NuxtImg :src="slide.name" class="rounded" />
+
+        </div>
+      </slide>
+
+      <template #addons>
+        <navigation />
+        <pagination />
+      </template>
+    </carousel>
+
+</div>
 </template>
 
 
