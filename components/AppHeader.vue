@@ -19,6 +19,12 @@
                         <li class="nav-item">
                             <NuxtLink to="/dashbord" class="nav-link">หวยออนไลน์</NuxtLink>
                         </li>
+                        <li class="nav-item">
+                            <NuxtLink to="/dashbord" class="nav-link">อัตราจ่าย</NuxtLink>
+                        </li>
+                        <li class="nav-item">
+                            <NuxtLink to="/dashbord" class="nav-link">โปรโมชั่น</NuxtLink>
+                        </li>
 
                     </ul>
 

@@ -49,6 +49,10 @@ a:hover {
     color: rgb(255, 136, 0);
 }
 
+.primary-hover:hover {
+    color: rgb(255, 136, 0);
+}
+
 /* selected link */
 a:active {
     color: yellow;
