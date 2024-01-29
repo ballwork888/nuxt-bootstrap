@@ -17,6 +17,11 @@
 
 .nav-link {
     color: #FFFFFF !important;
+    font-family: 'Mitr', sans-serif !important;
+}
+
+.nav-link:hover {
+    color: #ff8b07 !important;
 }
 
 .username {
@@ -29,8 +34,14 @@
 a {
     text-decoration: none;
 }
-body,html{
+
+body,
+html {
     background-color: #e2e0e0;
+    background-image: url('@/assets/images/left.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
 }
 
 /* mouse over link */
@@ -64,9 +75,16 @@ h4 {
     display: none;
 }
 
-.text-primary{
-    color:#af0303 !important;
+.text-primary {
+    color: #af0303 !important;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 190px;
+}
+
+.card-hover {}
+
+.card-hover:hover {
+    box-shadow: 0 0 20px rgba(231, 43, 43, 0.5);
 }

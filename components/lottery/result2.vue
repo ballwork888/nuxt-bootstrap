@@ -20,7 +20,7 @@ const { title } = defineProps<{title?:string}>()
                         <strong>3ตัวบน</strong>
                         <h3>3 4 5</h3>
                     </div>
-                    <div class="col-6 text-center border-end">
+                    <div class="col-6 text-center">
                         <strong>2ตัวล่าง</strong>
                         <h3>3  5</h3>
                     </div>

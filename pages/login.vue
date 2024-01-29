@@ -1,12 +1,15 @@
 <template>
     <div class="row">
-        <div class="col-12 col-lg-6 offset-3">
+        <div class="col-12 col-lg-3 offset-lg-2 d-none d-lg-block">
+            <NuxtImg src="/images/60957.jpg" class="w-100 rounded mt-2"></NuxtImg>
+        </div>
+        <div class="col-12 col-lg-4">
             <CardBox>
                 <div class="row">
                     <div class="col-12 text-center">
                         <h3 class="">เข้าสู่ระบบ</h3>
                     </div>
-                    <hr>
+                  
                     <div class="col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="username" placeholder="">

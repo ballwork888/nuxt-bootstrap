@@ -21,7 +21,7 @@
                     <NuxtLink to="/wallet/deposit/" class="btn btn-lg btn-success w-100"><i class="fa fa-plus-square"></i> เติมเงิน</NuxtLink>
                 </div>
                 <div class="col-6">
-                    <NuxtLink to="/wallet/withdraw/" class="btn btn-lg btn-warning w-100">ถอนเงิน</NuxtLink>
+                    <NuxtLink to="/wallet/withdraw/" class="btn btn-lg btn-warning w-100"><i class="icofont icofont-money"></i> ถอนเงิน</NuxtLink>
                 </div>
             </div>
 

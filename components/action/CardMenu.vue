@@ -30,27 +30,27 @@ const actions = [
     },
     {
         label: 'โพยหวย',
-        to: '/',
+        to: '/lottery/bet',
         icon: '<i class="fa fa-codiepie f-30"></i>'
     },
     {
         label: 'สร้างเลขชุด',
-        to: '/',
+        to: '/lottery/bet',
         icon: '<i class="fa fa-codiepie f-30"></i>'
     },
     {
         label: 'แนะนำเพื่อน',
-        to: '/',
+        to: '/lottery/bet',
         icon: '<i class="fa fa-codiepie f-30"></i>'
     },
     {
         label: 'เข้ากลุ่ม',
-        to: '/',
+        to: '/lottery/bet',
         icon: '<i class="fa fa-codiepie f-30"></i>'
     },
     {
         label: 'ชวนเพื่อน',
-        to: '/',
+        to: '/lottery/bet',
         icon: '<i class="fa fa-codiepie f-30"></i>'
     },
 ]
@@ -59,7 +59,7 @@ const actions = [
 <template>
     <div class="row">
         <template v-for="action in actions">
-            <div class="col-4 col-lg-3 mb-2">
+            <div class="col-6 col-lg-3 mb-2">
                 <NuxtLink :to="action.to" class="">
                     <div class="card small-widget mb-sm-0">
                         <div class="card-body primary">
