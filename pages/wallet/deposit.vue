@@ -18,11 +18,11 @@
                                 <div class="row mb-2">
                                     <div class="col-12 col-lg-8 offset-lg-2 text-center">
                                         <input type="number" class="form-control form-control-lg mb-2" placeholder="จำนวนเงินที่ต้องการ"/>
-                                        <buttom class="btn btn-outline-secondary me-1 mb-1">100</buttom>
-                                        <buttom class="btn btn-outline-secondary me-1 mb-1">200</buttom>
-                                        <buttom class="btn btn-outline-secondary me-1 mb-1">300</buttom>
-                                        <buttom class="btn btn-outline-secondary me-1 mb-1">400</buttom>
-                                        <buttom class="btn btn-outline-secondary mb-1">500</buttom>
+                                        <button class="btn btn-outline-secondary me-1 mb-1">100</button>
+                                        <button class="btn btn-outline-secondary me-1 mb-1">200</button>
+                                        <button class="btn btn-outline-secondary me-1 mb-1">300</button>
+                                        <button class="btn btn-outline-secondary me-1 mb-1">400</button>
+                                        <button class="btn btn-outline-secondary mb-1">500</button>
                                         
                                     </div>
                                 </div>
